@@ -72,3 +72,6 @@ Choosing between API Gateway and ALB depends on the specific needs of your appli
 
 ![image](https://github.com/user-attachments/assets/14753251-0cd1-4907-889e-dea9a692f542)
 
+![image](https://github.com/user-attachments/assets/5f5212e8-43fb-4484-b88c-27217cedeace)
+
+
