@@ -68,3 +68,7 @@ An API Gateway is a server that acts as an API front-end, handling all the tasks
 ### Summary
 
 Choosing between API Gateway and ALB depends on the specific needs of your application. API Gateway is perfect for managing APIs with advanced features and security requirements, while ALB is ideal for load balancing HTTP and HTTPS traffic with advanced routing capabilities. Understanding the differences and use cases for each service will help you make an informed decision based on your application's requirements.
+
+
+![image](https://github.com/user-attachments/assets/14753251-0cd1-4907-889e-dea9a692f542)
+
