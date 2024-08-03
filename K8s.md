@@ -1,4 +1,4 @@
-# Kubernetes interview requires covering various aspects including technical knowledge, troubleshooting skills, scenario-based problem-solving, and understanding real-world use cases. Here are the types of questions you might encounter, along with examples and explanations:
+### Kubernetes interview requires covering various aspects including technical knowledge, troubleshooting skills, scenario-based problem-solving, and understanding real-world use cases. Here are the types of questions you might encounter, along with examples and explanations:
 
 ### 1. Direct Technical Questions
 These questions test your fundamental knowledge of Kubernetes and related technologies.
