@@ -43,3 +43,27 @@ Understanding the life of a network packet in Kubernetes involves tracking its j
 4. The packet is routed to the appropriate pod by kube-proxy’s iptables rules.
 
 Understanding these concepts and being able to explain them during an interview will demonstrate your deep knowledge of Kubernetes networking. Additionally, being familiar with specific CNI plugins and their configurations can further showcase your expertise.
+
+
+
+
+![image](https://github.com/user-attachments/assets/6670dfef-ad3b-4103-85f6-41e2f7d8f5ef)
+
+
+
+
+Here's a diagram illustrating the life of a network packet in Kubernetes, from a container in a pod to the external network:
+
+1. **Container in Pod**: The packet originates from a container within a pod.
+
+2. **Container NIC**: The packet travels through the network interface card (NIC) of the container.
+
+3. **Node NIC**: The packet then passes through the network interface card (NIC) of the node hosting the pod.
+
+4. **Kube Proxy**: The packet is managed by the Kube Proxy, which handles service routing.
+
+5. **IPTables**: Kube Proxy modifies IP tables to route the packet to the appropriate service or external network.
+
+6. **External Network**: Finally, the packet exits the Kubernetes cluster and reaches the external network.
+
+This diagram helps visualize the flow of a network packet from its source in a container to its destination outside the Kubernetes cluster, highlighting the key components involved in the process.
